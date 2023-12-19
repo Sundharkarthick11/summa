@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    display: inline-block;
+    width: 300px;
+    height: 50%;
+    padding: 60px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.container h1{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+#input-text{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: solid white 1px;
+    background: transparent;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: white;
+    cursor: text;
+}
+.button{
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+    margin: 5px;
+    padding: 10px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+.para{
+    padding: 5px;
+    margin-top: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+}
+.deletebutton{
+    font-size: 15px;
+    display: inline;
+    text-align: center;
+    padding: 5px;
+    border: solid;
+    border-radius: 100%;
+    cursor: pointer;
+    left: 50%;
+}
+.deletebutton:hover{
+    background-color: black;
+    color: white;
+}
+.container ol li{
+    color: white;
+    font-size: 20px;
+}
