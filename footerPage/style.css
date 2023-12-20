@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+}
+.footer{
+    padding: 40px 20px 20px;
+    width: 100%;
+}
+.footericons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;  
+}
+.footericons a{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.footericons a i{
+    font-size: 30px;
+    color: black;
+    opacity:0.9;
+}
+.footericons a:hover{
+    background-color: black;
+    transition:0.5s;
+    opacity: 60%;
+}
+.footericons a:hover i{
+    color: white;
+    transition:0.5s;
+}
+.fa-brands fa-youtube{
+    color:#c4302b ;
+    transition:0.5s;
+}
+.footernav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;     
+}
+.footernav ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+.footernav ul li a{
+    color: white;
+}
+.footernav ul li a:hover{
+    opacity: 60%;
+}
+
+.footerbottom p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
